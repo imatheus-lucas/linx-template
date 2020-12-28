@@ -1,0 +1,24 @@
+[
+    {
+      "type": "postgres",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "schema": "postgres",
+      "username": "postgres",
+      "password": "postgres",
+      "database": "postgres",
+      "entities": [
+        "./dist/modules/**/infra/typeorm/entities/**/*.js",
+        "./src/modules/**/infra/typeorm/entities/**/*.ts"
+      ],
+      "migrations": [
+        "./dist/shared/infra/database/migrations/**/*.js",
+        "./src/shared/infra/database/migrations/**/*.ts"
+      ],
+      "cli": {
+        "entitiesDir": "./src/modules/**/infra/typeorm/entities",
+        "migrationsDir": "./src/shared/infra/database/migrations"
+      }
+    }
+  ]
+  
