@@ -26,5 +26,6 @@ github cli
 
 `yarn dev` ou `npm run dev`
 
+### ajude esté template a ficar cada vez melhor contribuindo!
 
 #### <p>Espero que gostem! XD</p>
