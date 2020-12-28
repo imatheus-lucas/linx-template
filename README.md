@@ -6,7 +6,6 @@
 -> envio de email <br/>
 -> upload de fotos <br/>
 -> typeScript <br/>
--> organização DDD <br/>
 -> typeorm  <br/>
 -> date-fns para formatação de datas <br/>
 
